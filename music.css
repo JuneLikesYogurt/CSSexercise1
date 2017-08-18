@@ -1,0 +1,547 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+#head{
+	height: 160px;
+}
+#head #top{
+	width: 1300px;
+	height: 100px;
+/*	background: #eee;*/
+	margin:0 auto;
+	border-bottom: 1px solid   	#F5F5F5;
+}
+#head #top img{
+	margin-top:22px;
+	float: left;
+}
+#head #top ul{
+	margin-left: 50px;
+	float: left;
+}
+#head #top ul li{
+/*	background: red;*/
+	height: 100px;
+	line-height: 100px;
+	margin:0 10px;
+	padding: 0 20px;
+	float: left;
+	font-size: 20px;
+}
+#head #top ul li.leftli{
+	background: #31c27c;
+}
+#head #top ul li.leftli a{
+	color: white;
+}
+#head #top ul li.leftli a:hover{
+	color: white;
+}
+#head #top ul li a{
+	color: #000;
+	text-decoration: none;
+}
+#head #top ul li a:hover{
+	color: #31c27c;
+}
+#head #find{
+	float: left;
+	margin-top: 33px;
+	margin-left: 10px;
+}
+#head #find input{
+	border: 0 none;
+	width: 174px;
+	height: 36px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 10px;
+	border: 1px solid #999;
+	border-radius: 2px;
+}
+#head #button{
+/*	background: yellow;*/
+	height: 60px;
+	float: left;
+	padding-top: 40px;
+	margin-left: 30px;
+}
+#head #button a{
+	padding:0 9px;
+	margin-left: 10px;
+}
+#head #button a:hover{
+	color: #31c27c;
+}
+#head #button a#buttonone{
+	color: white;
+	padding:15px 9px;
+	border: 1px solid #31c27c;
+	background-color: #31c27c;
+	border-radius: 2px;
+}
+#head #button a#buttonone:hover{
+	color: white;
+	background: #31c20c;
+}
+#head #button a#buttontwo{
+	color: black;
+	padding:15px 9px;
+	border: 1px solid #666;
+	background-color: white;
+	border-radius: 2px;
+}
+#head #button a#buttontwo:hover{
+	color: black;
+	background: #999;
+}
+#head #nav{
+	height: 60px;
+}
+#head #nav ul{
+	width: 630px;
+	margin:0 auto;
+}
+#head #nav ul li{
+	float: left;
+	line-height: 60px;
+	margin-right: 45px;
+}
+
+
+#new{
+	/*width: auto;*/
+	height: 740px;
+	background:red url(images/bg_index_new.jpg);
+}
+#new p{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 5px;
+/*	background: red;*/
+}
+#new ul{
+	margin: 0 auto;
+	width: 1300px;
+	height: 25px;
+/*	background: green;*/
+}
+#new ul li{
+/*	background: yellow;*/
+	float: left;
+	margin-left: 70px;
+	font-size: 18px;
+}
+#new ul li.oneli{
+/*	background: orange;*/
+	margin-left: 400px;
+}
+#new ul li.rightli{
+/*	background: pink;*/
+	margin-left: 390px;
+}
+#new ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#new ul li.oneli a{
+	color: white;
+}
+#new ul li.rightli a{
+	color: white;
+}
+#new ul li a:hover{
+	color: white;
+}
+#new ul li.rightli a:hover{
+	color: lightgreen;
+}
+#newshow{
+	width: 1308px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+/*	background: lightgreen;*/
+}
+#new dl{
+	float: left;
+}
+#new dl dt{
+	color: white;
+	height: 100px;
+	padding-top: 30px; 
+	text-align: center;
+	line-height: 180%;
+	font-size: 17px;
+	background-color:rgba(0,0,0,0.7);
+}
+#new dl dt a.song{
+	color: white;
+}
+#new dl dd img{
+	transition: all 0.6s;
+}
+#new dl dd img:hover{
+	transform: scale(1.03);
+}
+
+
+#recommend{
+	/*width: auto;*/
+	height: 700px;
+	background: white;
+}
+#recommend p{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	letter-spacing: 5px;
+	/*background: red;*/
+}
+#recommend dt{
+	width:1080px;
+	margin:0 auto;
+/*	background: yellow;*/
+}
+
+
+
+#rank{
+	/*width: auto;*/
+	height: 830px;
+	background:url(images/bg_index_top.jpg);
+}
+#rank p{
+	padding-top: 60px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 5px;
+/*	background: red;*/
+}
+#rank ul{
+	margin: 0 auto;
+	width: 1200px;
+	height: 25px;
+	/*background: green;*/
+}
+
+#rank ul li a.rightli{
+	color: white;
+	float:right;
+}
+#rank ul li a.rightli:hover{
+	color: lightgreen;
+}
+#rank #rankshow{
+	width: 1200px;
+	height: 550px;
+	margin: 0 auto;
+	background:url(images/bg_index_top2.jpg);
+/*	background: lightgreen;*/
+}
+#rank #rankshow dl{
+	float: left;
+	height: 550px;
+	width: 300px;
+/*	background: navy;*/
+}
+#rank #rankshow dl dt{
+	color: white;
+	height: 120px;
+	padding-top: 80px; 
+	text-align: center;
+	line-height: 180%;
+	font-size: 20px;
+/*	background: red;*/
+}
+#rank #rankshow dl ul{
+	padding-top: 50px;
+}
+#rank #rankshow dl ul li{
+	padding-bottom: 20px;
+	padding-left: 100px;
+	color: white;
+}
+#rank #rankshow dl ul li a{
+	color: white;
+}
+/*#rank #rankshow #one{
+	transition: all 0.6s;
+}
+#rank #rankshow #one{
+	transform: scale(1.1);
+}
+#rank #rankshow #two{
+	transition: all 0.6s;
+}
+#rank #rankshow #three{
+	transition: all 0.6s;
+}
+#rank #rankshow #four{
+	transition: all 0.6s;
+}*/
+
+
+#hot{
+	width: auto;
+	height: 800px;
+	background: white;
+}
+#hot p{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	letter-spacing: 5px;
+	/*background: red;*/
+}
+#hotshow{
+	width: 1050px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+/*	background: lightgreen;
+*/}
+#hot dl{
+	float: left;
+}
+#hot dl dt{
+	color: #888;
+	height: 120px;
+	padding-top: 60px; 
+	text-align: center;
+	line-height: 180%;
+	font-size: 17px;
+	background-color:#333;
+/*	background-color:rgba(0,0,0,0.7);*/
+}
+#hot dl dt.lighter{
+	background: #555;
+}
+#hot dl dt a.song{
+	color: white;
+}
+#hot dl dd img{
+	transition: all 0.6s;
+}
+#hot dl dd img:hover{
+	transform: scale(1.03);
+}
+
+
+#mv{
+	/*width: auto;*/
+	height: 980px;
+	background: #DCDCDC;
+}
+#mv p{
+	padding-top: 60px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	letter-spacing: 5px;
+/*	background: red;*/
+}
+#mv ul{
+	margin: 0 auto;
+	width: 1300px;
+	height: 25px;
+/*	background: green;*/
+}
+#mv ul li{
+/*	background: yellow;*/
+	float: left;
+	margin-left: 70px;
+	font-size: 18px;
+}
+#mv ul li.oneli{
+/*	background: orange;
+*/	margin-left: 400px;
+}
+#mv ul li.rightli{
+/*	background: pink;
+*/	margin-left: 390px;
+}
+#mv ul li a{
+	color: #666;
+	text-decoration: none;
+}
+#mv ul li.oneli a{
+	color: black;
+}
+#mv ul li.rightli a{
+	color: black;
+}
+#mv ul li a:hover{
+	color: black;
+}
+#mv ul li.rightli a:hover{
+	color: lightgreen;
+}
+#mvshow{
+	width: 1500px;
+	height: 450px;
+	margin: 0 auto;
+	margin-top: 30px;
+/*	background: lightgreen;*/
+}
+#mv dl{
+	float: left;
+}
+#mv dl dt{
+	height: 100px;
+	padding-top: 30px; 
+	text-align: center;
+	line-height: 180%;
+	font-size: 17px;
+/*	background-color:rgba(0,0,0,0.7);
+*/}
+#mv dl dt a.song{
+	color: black;
+}
+#mv dl dt a{
+	color: #999;
+}
+
+#mv dl dt a:hover{
+	color: lightgreen;
+}
+#mv dl dd img{
+	transition: all 0.6s;
+}
+#mv dl dd img:hover{
+	transform: scale(1.03);
+}
+
+
+#footer{
+	/*width: auto;*/
+	height: 526px;
+	background: #444;
+	color: #999;
+}
+#footer p{
+	font-size: 15px;
+	margin-bottom: 40px;
+}
+#footer a{
+	text-decoration: none;
+	color: #999;
+}
+#footer a:hover{
+	color:lightgreen;
+}
+#footer #dv1{
+/*	background: blue;*/
+	width:1000px;
+	height: 200px;
+	padding-top: 80px;
+	margin:0 auto;
+}
+#footer #dv1 #one{
+/*	background: yellow;*/
+	float: left;
+	width: 300px;
+}
+#footer #dv1 #one dd{
+	float: left;
+/*	width: 60px;*/
+	height: 70px;
+/*	background: red;*/
+	line-height: 50px;
+	margin-right: 31px;
+	font-size: 12px;
+}
+#footer #dv1 #two{
+/*	background: yellow;*/
+	float: left;
+	width: 200px;
+	margin-left: 90px;
+}
+#footer #dv1 #two dd{
+	float: left;
+	height: 70px;
+/*	background: red;*/
+	line-height: 50px;
+	margin-right: 13px;
+	font-size: 12px;
+}
+#footer #dv1 #two li{
+	float: left;
+	margin-right: 13px;
+	font-size: 12px;
+}
+#footer #dv1 #three{
+/*	background: yellow;*/
+	float: left;
+	width: 250px;
+	margin-left: 160px;
+}
+#footer #dv1 #three dd{
+/*	background: red;*/
+	font-size: 12px;
+	width: 72px;
+	float: left;
+	margin-right: 11px;
+	margin-bottom: 10px;
+}
+#footer #dv2{
+/*	background: red;*/
+	width:1000px;
+	height: 80px;
+	margin:0 auto;
+}
+#footer #dv2 p{
+	font-size: 12px;
+}
+#footer #dv2 dd{
+	font-size: 12px;
+	float: left;
+	margin-right: 20px;
+}
+#footer #dv3{
+/*	background: green;*/
+	width:1000px;
+	height: 86px;
+	margin:0 auto;
+}
+#footer #dv3 ul{
+	text-align: center;
+	height: 5px;
+	line-height: 10px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-left: 230px;
+	clear: both;
+}
+#footer #dv3 li{
+	display: inline;
+	font-size: 11px;
+	float: left;
+}
+#footer #dv3 p{
+	text-align: center;
+	font-size: 11px;
+/*	background: pink;*/
+	margin-bottom: 15px;
+}
